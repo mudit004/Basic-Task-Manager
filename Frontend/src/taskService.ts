@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { TaskItem } from './types';
 
-const API_BASE_URL = 'http://localhost:5000/api/tasks';
+const API_BASE_URL = 'https://basic-task-manager-l5cz.onrender.com/api/tasks';
 
 export const taskService = {
   getAllTasks: async (): Promise<TaskItem[]> => {
